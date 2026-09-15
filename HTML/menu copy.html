@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+</head>
+
+<body>
+
+    <header class="header-utama">
+        <div class="logo-toko">
+            <a href="../index.html"><img src="../ASSETS/logo.jpg" alt=""></a>
+            <h1>Syifa` Bakery</h1>
+        </div>
+        <nav class="menu-navigasi">
+            <a href="../index.html">Beranda</a>
+            <a href="menu copy.html" class="nav-aktif">Menu</a>
+            <a href="promo copy.html">Promo</a>
+            <a href="kontak copy.html">Kontak</a>
+        </nav>
+    </header>
+
+    <main class="container-menu">
+
+        <div class="kotak-tabel-judul">
+            <table class="tabel-judul-menu">
+                <thead>
+                    <tr>
+                        <th>
+                            <h2 class="judul-halaman-tabel">Daftar Lengkap Menu Makanan & Minuman</h2>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <div class="container-kotak-info">
+            <div class="kotak-info-item">✨ 100% Halal & Fresh Baked</div>
+            <div class="kotak-info-item">☕ Premium Coffe</div>
+        </div>
+
+
+        <section class="container-kategori">
+            <div class="daftar-kartu">
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 25.000</div>
+                    <img src="../ASSETS/chocolatealmond.jpg" alt="Chocolate Almond Croissant">
+                    <h3>Chocolate Almond Croissant</h3>
+                    <p>Roti panggang dengan chocolate dan taburan kacang Almond.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Chocolate Almond Croissant', 25000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 20.000</div>
+                    <img src="../ASSETS/latte.jpg" alt="Coffee Latte">
+                    <h3>Coffee Latte</h3>
+                    <p>Perpaduan rasa espresso kental dan susu segar yang halus menenangkan.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Coffee Latte', 20000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 24.000</div>
+                    <img src="../ASSETS/matcha-cr.jpg" alt="Matcha Cinnamon Roll">
+                    <h3>Matcha Cinnamon Roll</h3>
+                    <p>Roti berlapis dengan topping saus matcha segar.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Matcha Cinnamon Roll', 24000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 28.000</div>
+                    <img src="../ASSETS/caramel-c.jpg" alt="Caramel Cheesecake">
+                    <h3>Caramel Cheesecake</h3>
+                    <p>Dessert lembut dan manis dengan paduan saus karamel  melimpah.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Caramel Cheesecake', 28000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 26.000</div>
+                    <img src="../ASSETS/brow-ice.jpg" alt="Iced Brown Sugar Coffee">
+                    <h3>Iced Brown Sugar</h3>
+                    <p>Kombinasi Brownies dan ice crim vanilla yang lembut.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Iced Brown Sugar', 26000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 29.000</div>
+                    <img src="../ASSETS/brow-matcha.jpg" alt="Matcha Float">
+                    <h3> Brownies Matcha</h3>
+                    <p> Brownies dengan taburan matcha hijau khas Jepang .</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Brownies Matcha', 29000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 18.000</div>
+                    <img src="../ASSETS/chocolate.jpg" alt="Chocolate Bread">
+                    <h3>Chocolate Croissant</h3>
+                    <p>Roti panggang  dengan isi cokelat lumer yang melimpah.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Chocolate Croissant', 18000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 22.000</div>
+                    <img src="../ASSETS/cheese.jpg" alt="Cheese Croissant">
+                    <h3>Cheese Croissant</h3>
+                    <p>Roti isi keju dengan taburan garlic .</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Cheese Croissant', 22000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 20.000</div>
+                    <img src="../ASSETS/Buttery Garlic.jpg" alt="Buttery Garlic Toast">
+                    <h3>Buttery Garlic croissant</h3>
+                    <p>Roti panggang mentega gurih renyah aroma bawang putih menggugah selera.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Buttery Garlic Croissant', 20000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 23.000</div>
+                    <img src="../ASSETS/apple-cr.jpg" alt="Apple Cinnamon Roll">
+                    <h3>Apple Cinnamon Roll</h3>
+                    <p>Pastry Roll berlapis olahan apel manis dan keharuman bubuk kayu manis.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Apple Cinnamon Roll', 23000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 32.000</div>
+                    <img src="../ASSETS/c-strawbery.jpg" alt="Strawberry Cheesecake">
+                    <h3>Strawberry Cheesecake</h3>
+                    <p>Kue lembut manis dengan krim dan potongan buah stroberi  segar.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Strawberry Cheesecake', 32000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 30.000</div>
+                    <img src="../ASSETS/banana-c.jpg" alt="Banana Cheesecake">
+                    <h3>Banana Cheesecake</h3>
+                    <p>Dessert keju krim lembut berpadu dengan keharuman olahan pisang manis.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Banana Cheesecake', 30000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 33.000</div>
+                    <img src="../ASSETS/blueberry-c.jpg" alt="Blueberry Cheesecake">
+                    <h3>Blueberry Cheesecake</h3>
+                    <p>Kue keju kaya rasa krim dilapisi saus selai buah blueberry  yang segar.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Blueberry Cheesecake', 33000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 34.000</div>
+                    <img src="../ASSETS/redvel-c.jpg" alt="Red Velvet Cheesecake">
+                    <h3>Red Velvet Cheesecake</h3>
+                    <p>dessert lembut dengan baluran rasa red velvet.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Red Velvet Cheesecake', 34000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 27.000</div>
+                    <img src="../ASSETS/brow-tiramisu.jpg" alt="Tiramisu Brownies">
+                    <h3>Tiramisu Brownies</h3>
+                    <p>Kue brownies cokelat padat bersalut rasa kopi tiramisu lezat menggugah selera.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Tiramisu Brownies', 27000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 35.000</div>
+                    <img src="../ASSETS/pistachio.jpg" alt=" Croissant Pistachio">
+                    <h3>Croissant Pistachio</h3>
+                    <p>Roti panggang bertabur kacang pistachio gurih manis dan renyah.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang(' Croissant Pistachio ', 35000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 16.000</div>
+                    <img src="../ASSETS/banana-m.jpg" alt="Banana Muffin">
+                    <h3>Banana Muffin</h3>
+                    <p>Kue muffin olahan pisang alami yang manis dan lembut.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Banana  Muffin', 16000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 17.000</div>
+                    <img src="../ASSETS/bluebery-m.jpg" alt="Blueberry  Muffin">
+                    <h3>Blueberry Muffin</h3>
+                    <p>Kue muffin berisikan potongan buah blueberry manis asam segar.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Blueberry  Muffin', 17000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 16.000</div>
+                    <img src="../ASSETS/chocochips-m.jpg" alt="Chocochips Muffin">
+                    <h3>Chocochips Muffin</h3>
+                    <p>Kue muffin cokelat bertaburkan butiran chocochips manis melimpah.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Chocochips Muffin', 16000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 17.000</div>
+                    <img src="../ASSETS/strawbery-m.jpg" alt="Strawberry Muffin">
+                    <h3>Strawberry Muffin</h3>
+                    <p>Kue muffin manis beraroma stroberi segar .</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Strawberry Muffin', 17000, 'Dessert')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 25.000</div>
+                    <img src="../ASSETS/cap-love.jpg" alt="Cappuccino Love">
+                    <h3>Cappuccino Love</h3>
+                    <p>Perpaduan espresso kaya rasa dengan susu hangat yang lembut dan kreasi latte art cantik.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Cappuccino Love', 25000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 22.000</div>
+                    <img src="../ASSETS/cheese-sand.jpg" alt="Cheese Sandwich">
+                    <h3>Cheese Sandwich</h3>
+                    <p>Sandwich isi keju lumer gurih dengan roti panggang .</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Cheese Sandwich', 22000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 24.000</div>
+                    <img src="../ASSETS/coffe-lattecream.jpg" alt="Coffee Latte Cream">
+                    <h3>Coffee Latte Cream</h3>
+                    <p>Espresso harum disajikan dengan  krim manis lembut di atasnya.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Coffee Latte Cream', 24000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 26.000</div>
+                    <img src="../ASSETS/fruit-san.jpg" alt="Fruit Cream Sandwich">
+                    <h3>Fruit Cream Sandwich</h3>
+                    <p>Roti Sandwich dengan isian krim manis dan potongan buah segar.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Fruit Cream Sandwich', 26000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 18.000</div>
+                    <img src="../ASSETS/ice-americano.jpg" alt="Ice Americano">
+                    <h3>Ice Americano</h3>
+                    <p>Seduhan espresso  dengan es batu dingin yang menyegarkan hari Anda.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Ice Americano', 18000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 27.000</div>
+                    <img src="../ASSETS/ice-caramel.jpg" alt="Ice Caramel Latte">
+                    <h3>Ice Caramel Latte</h3>
+                    <p>Kopi susu dingin segar berpadu dengan sirup karamel manis .</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Ice Caramel Latte', 27000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 28.000</div>
+                    <img src="../ASSETS/manggo-m-latte.jpg" alt="Mango Matcha Latte">
+                    <h3>Mango Matcha Latte</h3>
+                    <p>Perpaduan buah  mangga manis,  matcha , dan susu segar.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Mango Matcha Latte', 28000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 25.000</div>
+                    <img src="../ASSETS/matcha-latte.jpg" alt="Matcha Latte ">
+                    <h3>Matcha Latte </h3>
+                    <p>Seduhan matcha hijau asli Jepang berpadu dengan susu hangat creamy.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Matcha Latte ', 25000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 29.000</div>
+                    <img src="../ASSETS/s-matcha.jpg" alt=" Strawberry Matcha ">
+                    <h3>Strawberry Matcha </h3>
+                    <p>perpaduan matcha dengan susu strawberry.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Strawberry Matcha ', 29000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 21.000</div>
+                    <img src="../ASSETS/sandoegg-san.jpg" alt="Egg Mayo Sandwich">
+                    <h3>Egg Mayo Sandwich</h3>
+                    <p>Roti sandwich empuk isian olahan telur mayones gurih dan lezat.</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Egg Mayo Sandwich', 21000, 'Roti')">Pesan Sekarang</button>
+                </article>
+
+                <article class="kartu-menu">
+                    <div class="harga">Rp 23.000</div>
+                    <img src="../ASSETS/vanila-latte.jpg" alt="Vanilla Latte">
+                    <h3>Vanilla Latte</h3>
+                    <p>Kopi espresso nikmat beraroma vanilla manis .</p>
+                    <button class="tombol-pesan" onclick="pesanSekarang('Vanilla Latte', 23000, 'Kopi')">Pesan Sekarang</button>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+
+            <div class="kolom-footer">
+                <h3> 🥐Syifa` Bakery</h3>
+                <p> 📍Jl. Dakota 8A Sukaraja, Kota Bandung, Jawa Barat</p>
+                <p>📞 Telepon/WA: 0871-1111-1111</p>
+                <p>📧 Email: info@syifabakery.com</p>
+            </div>
+
+            <div class="kolom-footer">
+                <h3>Navigasi Cepat</h3>
+                <ul>
+                    <li><a href="../index.html">Beranda</a></li>
+                    <li><a href="menu copy.html">Daftar Menu</a></li>
+                    <li><a href="promo copy.html">Promo Paket</a></li>
+                    <li><a href="kontak copy.html">Kontak & Lokasi</a></li>
+                </ul>
+            </div>
+
+            <div class="kolom-footer">
+                <h3>Media Sosial Kami</h3>
+                <p>Ikuti kabar terbaru & promo produk segar kami di sosial media:</p>
+                <div class="sosial-media">
+                    <a href="https://facebook.com" target="_blank"><img src="../ASSETS/facebook.svg"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="../ASSETS/instagram.svg"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="../ASSETS/twitter.svg"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hak-cipta">
+            <p>&copy; 2026 Syifa` Bakery.</p>
+        </div>
+    </footer>
+
+    <!-- Memuat File JavaScript Eksternal (Bab XVI: Eksternal JavaScript) -->
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>

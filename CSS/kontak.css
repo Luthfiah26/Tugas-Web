@@ -1,0 +1,189 @@
+.container-kontak {
+    max-width: 1000px; 
+    margin: 100px auto 40px auto;
+    padding: 0 20px;
+}
+
+.baris-kontak {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+    align-items: flex-start; 
+}
+
+.kolom-formulir {
+    flex: 1; 
+    min-width: 300px; 
+    background-color: #ffffff; 
+    padding: 25px;
+    border-radius: 16px;
+    border: 2px solid #4a2c20; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.kolom-formulir form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+}
+
+.kolom-formulir label {
+    font-size: 15px;
+    font-weight: bold; 
+    color: #4a2c20;
+}
+
+.kolom-formulir input[type="text"],
+.kolom-formulir input[type="email"],
+.kolom-formulir textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #c8b29c;
+    border-radius: 8px; 
+    font-size: 14px;
+    font-family: inherit; 
+}
+
+.kolom-formulir textarea {
+    height: 120px; 
+    resize: vertical; 
+}
+
+.tombol-kirim-pesan {
+    background-color: #4a2c20; 
+    color: #f1dfcc;
+    border: none;
+    padding: 12px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.tombol-kirim-pesan:hover {
+    background-color: #d97706; 
+}
+
+.kolom-informasi-lokasi {
+    flex: 1;
+    min-width: 300px; 
+    background-color: #ffffff; 
+    padding: 25px; 
+    border-radius: 16px;
+    border: 2px solid #4a2c20; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.kolom-informasi-lokasi h3 {
+    color: #4a2c20;
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #d97706;
+    padding-bottom: 8px;
+}
+
+.kolom-informasi-lokasi h3 img {
+    width: 24px;
+    height: 24px;
+}
+
+.kolom-informasi-lokasi p {
+    font-size: 15px;
+    color: #4a2c20;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.kolom-informasi-lokasi .tabel-daftar-harga {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #fdfbf7;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #c8b29c;
+}
+
+.kolom-informasi-lokasi .tabel-daftar-harga th {
+    background-color: #4a2c20;
+    color: #f1dfcc;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.kolom-informasi-lokasi .tabel-daftar-harga td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e6d3c0;
+    font-size: 14px;
+    color: #4a2c20;
+}
+
+.kolom-informasi-lokasi .tabel-daftar-harga tbody tr:nth-child(even) {
+    background-color: #fce7d1;
+}
+
+.kolom-informasi-lokasi .tabel-daftar-harga tbody tr:last-child td {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .container-kontak {
+        margin-top: 52px;
+        padding: 15px 12px;
+    }
+    .baris-kontak {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .kolom-formulir,
+    .kolom-informasi-lokasi {
+        width: 100%;
+        min-width: 0;
+        padding: 18px 14px;
+        border-radius: 14px;
+    }
+    .kolom-formulir h3,
+    .kolom-informasi-lokasi h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .kolom-formulir label {
+        font-size: 13px;
+    }
+    .kolom-formulir input[type="text"],
+    .kolom-formulir input[type="email"],
+    .kolom-formulir textarea {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    .kolom-formulir textarea {
+        height: 100px;
+    }
+    .tombol-kirim-pesan {
+        padding: 10px 16px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .kolom-informasi-lokasi p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .kolom-informasi-lokasi .tabel-daftar-harga th,
+    .kolom-informasi-lokasi .tabel-daftar-harga td {
+        padding: 8px 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-kontak {
+        margin-top: 48px;
+        padding: 10px 8px;
+    }
+}
+

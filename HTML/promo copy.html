@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo</title>
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/promo.css">
+</head>
+
+<body>
+
+    <header class="header-utama">
+        <div class="logo-toko">
+            <a href="../index.html"><img src="../ASSETS/logo.jpg" alt=""></a>
+            <h1>Syifa` Bakery</h1>
+        </div>
+        <nav class="menu-navigasi">
+            <a href="../index.html">Beranda</a>
+            <a href="menu copy.html">Menu</a>
+            <a href="promo copy.html" class="nav-aktif">Promo</a>
+            <a href="kontak copy.html">Kontak</a>
+        </nav>
+    </header>
+
+    <main class="container-promo">
+
+        <section class="spanduk-promo">
+            <div class="badge-timer"><img src="../ASSETS/clock-fill.svg" alt=""> PROMO TERBATAS MINGGU INI</div>
+            <h2>Promo Paket Hemat Syifa` Bakery</h2>
+            <p>Nikmati perpaduan roti dipanggang segar, kopi aroma nikmat, dan dessert manis dengan harga hemat serta diskon hingga 30%!</p>
+        </section>
+
+        <div class="kotak-kupon-promo">
+            <div class="isi-kupon">
+                <span class="ikon-kupon"></span>
+                <div class="teks-kupon">
+                    <strong>Gunakan Kode Voucher: <span class="kode-voucher">HEMATT10</span></strong>
+                    <p>Dapatkan potongan diskon ekstra Rp 10.000 untuk belanja min. Rp 50.000!</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="keunggulan-promo">
+            <article class="kartu-keunggulan">
+                <h4>Dipanggang Segar Setiap Pagi</h4>
+                <p>Seluruh roti dipanggang segar hari ini tanpa bahan pengawet.</p>
+            </article>
+            <article class="kartu-keunggulan">
+                <h4>100% Premium Kopi Arabika</h4>
+                <p>Biji kopi pilihan terbaik untuk setiap seduhan.</p>
+            </article>
+            <article class="kartu-keunggulan">
+                <h4>Gratis Bonus Produk Setiap Paket</h4>
+                <p>Dapatkan bonus ekstra air mineral, butter, atau sendok dessert emas.</p>
+            </article>
+        </section>
+
+        <h3 class="subjudul-promo">Pilihan 3 Paket Promo Hemat Utama</h3>
+        <div class="daftar-kartu">
+
+            <!-- Kartu Promo 1 -->
+            <article class="kartu-menu">
+                <div class="harga">Rp 35.000</div>
+                <img src="../ASSETS/promo1.jpg" alt="Promo Buy 1 Get 1 Coffee">
+                <h3>Paket Buy 1 Croissant Get 1 Coffee</h3>
+                <p>Free 1x Coffe Latte.<br><del>Rp 48.000</del></p>
+                <button class="tombol-pesan" onclick="prosesPesanan('Paket Buy 1 Get 1 Coffee', 35000, 'Kopi')">Pesan Sekarang</button>
+            </article>
+
+            <!-- Kartu Promo 2 -->
+            <article class="kartu-menu">
+                <div class="harga">Rp 45.000</div>
+                <img src="../ASSETS/promo2.jpg" alt="Promo Diskon Cake">
+                <h3>Paket Diskon Spesial Croissant</h3>
+                <p>x3 Croissant varian bebas.<br><del>Rp 65.000</del></p>
+                <button class="tombol-pesan" onclick="prosesPesanan('Paket Diskon Spesial Cake', 45000, 'Dessert')">Pesan Sekarang</button>
+            </article>
+
+            <!-- Kartu Promo 3 -->
+            <article class="kartu-menu">
+                <div class="harga">Rp 40.000</div>
+                <img src="../ASSETS/promo.jpg" alt="Promo Morning Deal">
+                <h3>Paket Morning Breakfast Deal</h3>
+                <p>1x Choco Almond Croissant + 1x Cappuccino Warm nikmat.<br><del>Rp 53.000</del></p>
+                <button class="tombol-pesan" onclick="prosesPesanan('Paket Morning Breakfast Deal', 40000, 'Roti')">Pesan Sekarang</button>
+            </article>
+
+        </div>
+
+        <section class="section-tabel-promo">
+            <h3 class="subjudul-promo">Tabel Ketentuan & Jam Berlaku Promo</h3>
+            <div class="pembungkus-tabel">
+                <table class="tabel-daftar-harga">
+                    <thead>
+                        <tr>
+                            <th>Nama Paket Promo</th>
+                            <th>Jam Operasional Promo</th>
+                            <th>Harga Promo</th>
+                            <th>Bonus Otomatis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paket Buy 1 Get 1 Coffee</td>
+                            <td>07.00 - 12.00 WIB</td>
+                            <td>Rp 35.000</td>
+                            <td>Free Butter Croissant</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Diskon Spesial Cake</td>
+                            <td>14.00 - 17.00 WIB</td>
+                            <td>Rp 45.000</td>
+                            <td>Free Gold Dessert Spoon</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Morning Breakfast Deal</td>
+                            <td>07.00 - 11.00 WIB</td>
+                            <td>Rp 40.000</td>
+                            <td>Free Mineral Water 330ml</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+
+            <div class="kolom-footer">
+                <h3> 🥐Syifa` Bakery</h3>
+                <p> 📍Jl. Dakota 8A Sukaraja, Kota Bandung, Jawa Barat</p>
+                <p>📞 Telepon/WA: 0871-1111-1111</p>
+                <p>📧 Email: info@syifabakery.com</p>
+            </div>
+
+            <div class="kolom-footer">
+                <h3>Navigasi Cepat</h3>
+                <ul>
+                    <li><a href="../index.html">Beranda</a></li>
+                    <li><a href="menu copy.html">Daftar Menu</a></li>
+                    <li><a href="promo copy.html">Promo Paket</a></li>
+                    <li><a href="kontak copy.html">Kontak & Lokasi</a></li>
+                </ul>
+            </div>
+
+            <div class="kolom-footer">
+                <h3>Media Sosial Kami</h3>
+                <p>Ikuti kabar terbaru & promo produk segar kami di sosial media:</p>
+                <div class="sosial-media">
+                    <a href="https://facebook.com" target="_blank"><img src="../ASSETS/facebook.svg"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="../ASSETS/instagram.svg"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="../ASSETS/twitter.svg"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hak-cipta">
+            <p>&copy; 2026 Syifa` Bakery.</p>
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
